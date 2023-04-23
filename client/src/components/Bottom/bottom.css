@@ -1,0 +1,87 @@
+.main-bottom{
+    margin-top: 3rem;       
+}
+.main-bottom::after{
+    box-shadow: '1px 2px 9px grey';
+    margin: '4em';
+    padding: '1em';
+}
+.bottom-1{
+    background-color: rgb(114, 202, 98);
+    color: white;
+    margin-bottom: 3rem;
+}
+.bottom-head{
+    padding-top: 20px;
+}
+.p-bottom{
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.bottom-2{
+    margin-top: 4rem;
+}
+.bottom2-head{
+    font-size: 35px;
+}
+.contact-form{
+    padding: 0rem 3rem 0rem 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+}
+
+.c-right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.c-right>form{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+align-items: center;
+}
+
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 1.5rem;
+    outline: none;
+    border: 2.5px solid var(--blue);
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgb(233, 217, 217);
+    gap: 3rem;
+}
+.user{
+    margin: 0rem 0.6rem;
+}
+textarea{
+    height: 6rem!important;
+}
+
+.c-blur{
+    top: 1rem;
+    left: 8rem;
+
+}
+.c-right>button{
+    padding: 3px;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+.btn2{
+    margin-top: 2rem;
+    padding: 5px 30px;
+    margin-bottom: 3rem;
+}
+.btn2:hover{
+    background-color: white;
+    color: green;
+    border: 1px solid black;
+}
